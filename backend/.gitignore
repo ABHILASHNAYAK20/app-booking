@@ -8,3 +8,4 @@ dist
 
 #dev
 .vscode/*
+!.vscode/extensions.json
