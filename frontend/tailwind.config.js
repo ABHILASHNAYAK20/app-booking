@@ -6,12 +6,17 @@ export default {
   ],
 
   theme: {
-    extend: {},
-    container:{
-      padding: {
-        md:"10rem"
+    extend: {
+      animation: {
+        lineLoader: "lineLoader 1.5s infinite",
       },
-    }
+      keyframes: {
+        lineLoader: {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(100%)" },
+        },
+      },
+    },
   },
   plugins: [],
 }

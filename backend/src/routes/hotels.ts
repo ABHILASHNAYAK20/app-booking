@@ -106,11 +106,9 @@ router.post("/:hotelId/bookings/payment-intent", verifyToken, async (req: Reques
     const paymentIntent = await stripe.paymentIntents.create({
       amount: totalCost * 100,
       currency: "INR",
-      metadata: {
-        hotelId,
-        userId: req.userId,
-      },
+      metadata: { hotelId, userId: req.userId },
     });
+    ;
     console.log('Payment Intent Response:', paymentIntent);
 
     if (!paymentIntent.client_secret) {

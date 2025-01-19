@@ -1,16 +1,28 @@
-import React from 'react'
+import React from 'react';
+import SearchBar from './SearchBar';
 
 const Hero = () => {
   return (
-    <div className="bg-blue-400 pb-16">
-      <div className="container mx-auto flex flex-col gap-2">
-        <h1 className="text-5xl text-white font-bold">Find your next stay</h1>
-        <p className="text-2xl text-white">
-          Search low prices on hotels for your dream vacation...
-        </p>
+    <div className="bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 text-white py-24">
+      <div className="container mx-auto flex flex-col items-center text-center space-y-10">
+        {/* Hero Text */}
+        <div>
+          <h1 className="text-6xl font-extrabold tracking-wide">
+            Find Your Next Stay
+          </h1>
+          <p className="text-xl max-w-3xl mt-4">
+            Discover the best deals on hotels for your dream vacation. Plan your
+            perfect getaway with ease.
+          </p>
+        </div>
+
+        {/* Search Bar */}
+        <div className="w-full max-w-5xl">
+          <SearchBar />
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
