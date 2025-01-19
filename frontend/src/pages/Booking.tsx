@@ -8,6 +8,10 @@ import { Elements } from "@stripe/react-stripe-js";
 import { useAppContext } from "../contexts/AppContext";
 import BookingForm from "../forms/BookingForm/BookingForm";
 import Header from "../components/Header";
+import { loadStripe } from "@stripe/stripe-js";
+
+
+const stripePromise = loadStripe(process.env.VITE_STRIPE_PUB_KEY as string);
 
 const Booking = () => {
   const { stripePromise } = useAppContext();
@@ -118,7 +122,7 @@ const Booking = () => {
 
           {/* Booking Form Section */}
           
-          {currentUser && paymentIntentData && (
+          {currentUser && paymentIntentData&& (
             <div className="bg-white shadow-lg rounded-lg p-6">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">
                 Payment & Guest Details
