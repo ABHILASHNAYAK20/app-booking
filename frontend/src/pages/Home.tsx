@@ -54,7 +54,7 @@ const Home = () => {
           {/* Luxury Hotels Section */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-md transform transition duration-500 hover:scale-105">
             <a href="https://www.privateupgrades.com/luxury-hotels/asia/india" target="_blank" rel="noopener noreferrer">
-              <img src="LUXURY.jpg" alt="Luxury Hotel" className="w-full h-64 object-cover" />
+              <img src="luxury.jpg" alt="Luxury Hotel" className="w-full h-64 object-cover" />
             </a>
             <div className="p-4 space-y-2">
               <h4 className="text-xl font-semibold text-gray-700">Luxury Hotel</h4>
