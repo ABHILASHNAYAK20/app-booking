@@ -54,7 +54,7 @@ const Home = () => {
           {/* Luxury Hotels Section */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-md transform transition duration-500 hover:scale-105">
             <a href="https://www.privateupgrades.com/luxury-hotels/asia/india" target="_blank" rel="noopener noreferrer">
-              <img src="./src/assets/LUXURY.jpg" alt="Luxury Hotel" className="w-full h-64 object-cover" />
+              <img src="LUXURY.jpg" alt="Luxury Hotel" className="w-full h-64 object-cover" />
             </a>
             <div className="p-4 space-y-2">
               <h4 className="text-xl font-semibold text-gray-700">Luxury Hotel</h4>
@@ -66,7 +66,7 @@ const Home = () => {
           {/* Cozy Hotels Section */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-md transform transition duration-500 hover:scale-105">
             <a href="https://www.i-escape.com/india/boutique-hotels?page=3" target="_blank" rel="noopener noreferrer">
-              <img src="./src/assets/COZY.jpg" alt="Cozy Stay" className="w-full h-64 object-cover" />
+              <img src="COZY.jpg" alt="Cozy Stay" className="w-full h-64 object-cover" />
             </a>
             <div className="p-4 space-y-2">
               <h4 className="text-xl font-semibold text-gray-700">Cozy Stay</h4>
@@ -96,7 +96,7 @@ const Home = () => {
         <div className="flex flex-col md:flex-row justify-center gap-6">
           {/* Top 5 Destinations Section */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-md">
-            <img src="./src/assets/destinations.jpg" alt="Top 5 Destinations" className="w-full h-64 object-cover" />
+            <img src="destinations.jpg" alt="Top 5 Destinations" className="w-full h-64 object-cover" />
             <div className="p-4 space-y-2">
               <h4 className="text-xl font-semibold text-gray-700">Top 5 Destinations</h4>
               <p className="text-gray-500">Explore the best travel spots...</p>
@@ -106,7 +106,7 @@ const Home = () => {
 
           {/* Budget Travel Tips Section */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-md">
-            <img src="./src/assets/budget (1).jpg" alt="Budget Travel Tips" className="w-full h-64 object-cover" />
+            <img src="budget (1).jpg" alt="Budget Travel Tips" className="w-full h-64 object-cover" />
             <div className="p-4 space-y-2">
               <h4 className="text-xl font-semibold text-gray-700">Budget Travel Tips</h4>
               <p className="text-gray-500">Save more while traveling...</p>
